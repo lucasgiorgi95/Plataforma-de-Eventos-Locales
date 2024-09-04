@@ -1,9 +1,13 @@
 // server.js
 const express = require('express');
+const cors = require('cors'); // Importa cors
 const initDb = require('./config/db'); // Asegúrate de que la ruta sea correcta
 const app = express();
 
 const port = 3001;
+
+
+app.use(cors());
 
 // Middleware para manejar JSON (si es necesario)
 app.use(express.json());
