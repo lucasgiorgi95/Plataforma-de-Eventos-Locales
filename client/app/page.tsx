@@ -1,11 +1,11 @@
-// HomePage.tsx
 "use client";
-import Events from "../components/Events"; // Importa el nuevo componente
-
+import Events from "../components/Events";
+import Navbar from "@/components/Navbar";
 const HomePage = () => {
   return (
-    <div>
-      <Events /> 
+    <div className="min-h-screen bg-gradient-to-br from-gray-800 to-gray-900 text-white">
+      <Navbar/>
+      <Events />
     </div>
   );
 };

@@ -1,12 +1,13 @@
 'use client'
 import EventForm from '@/components/EventForm';
+import Navbar from '@/components/Navbar';
 import React from 'react';
 
 
 const CreateEventPage = () => {
   return (
-    <main className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Crear Evento</h1>
+    <main className=" mx-auto p-4 bg-gradient-to-br from-gray-800 to-gray-900">
+        <Navbar/>
       <EventForm />
     </main>
   );

@@ -15,7 +15,7 @@ const Navbar = () => {
  
 
   return (
-    <nav className="bg-blue-600 p-4">
+    <nav className="bg-transparent to-gray-900 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <a href="/">
         <h1 className="text-white text-xl font-bold">
@@ -25,7 +25,7 @@ const Navbar = () => {
         <div>
           <button 
             onClick={handleCreateEvent} 
-            className="text-white px-4 py-2 rounded hover:bg-blue-500"
+            className="border bg-transparent text-white px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Crear Evento
           </button>
@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="md:hidden bg-blue-700 p-4">
           <button 
             onClick={handleCreateEvent} 
-            className="text-white block mb-2"
+            className="border bg-transparent text-white px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Crear Evento
           </button>

@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+.react-calendar__navigation button {
+    color: black !important; /* Establece el color del texto en negro */
+  }
+  
+  .react-calendar__month-view__days__day--neighboringMonth {
+    color: black !important; /* Establece el color del texto en negro para los días del mes vecino */
+  }
+  
+  /* Añade estos estilos en tu archivo CSS global o en el CSS módulo correspondiente */
+
+.react-calendar__navigation {
+    margin-bottom: 1em;
+  }
+  
+  .react-calendar__month-view__weekdays {
+    margin-bottom: 0.5em;
+  }
+  
+  .react-calendar__month-view__weekdays__weekday {
+    color: #000; /* Color de texto para los días de la semana */
+    font-weight: bold;
+  }
+  
+  .react-calendar__tile {
+    color: #000; /* Color de texto para los días del mes */
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #f0f0f0; /* Color de fondo para el día activo */
+  }
+  
+  .react-calendar__tile--now {
+    background-color: #d1eaff; /* Color de fondo para el día de hoy */
+  }
+  
+  .react-calendar__tile--hasActive {
+    border: 1px solid #007bff; /* Borde para los días con eventos */
+  }
+  
